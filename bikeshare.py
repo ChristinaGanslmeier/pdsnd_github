@@ -139,7 +139,7 @@ def trip_duration_stats(df, city):
     print('-'*40)
 
 
-def user_stats(df, city):
+def customer_stats(df, city):
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -191,7 +191,7 @@ def main():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df,city)
-        user_stats(df, city)
+        customer_stats(df, city)
         display_trip_data(df)
         
         
